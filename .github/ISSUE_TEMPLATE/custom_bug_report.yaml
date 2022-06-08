@@ -1,7 +1,6 @@
 name: Custom Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: []
 body:
   - type: checkboxes
     id: customer-reported
