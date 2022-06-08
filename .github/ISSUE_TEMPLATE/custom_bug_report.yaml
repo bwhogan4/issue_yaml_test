@@ -2,39 +2,37 @@ name: Custom Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: []
-assignees:
-  - octocat
 body:
   - type: checkboxes
     id: customer-reported
-    attributes: 
+    attributes:
       label: Did a customer report this?
-      options: 
+      options:
         - Yes
         - No
-    validations: 
+    validations:
       required: true
   - type: checkboxes
     id: environment
-    attributes: 
+    attributes:
       label: Where was this found?
-      options: 
+      options:
         - Develop
         - Nightly
         - Staging
         - Production
-    validations: 
+    validations:
       required: true
   - type: checkboxes
     id: customer-reported
-    attributes: 
+    attributes:
       label: When did you find this bug?
-      options: 
+      options:
         - Q1
         - Q2
         - Q3
         - Q4
-    validations: 
+    validations:
       required: true
   - type: textarea
     id: reproduce
