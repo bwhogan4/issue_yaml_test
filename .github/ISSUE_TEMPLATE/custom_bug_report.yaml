@@ -3,7 +3,8 @@ description: File a bug report
 title: "[Bug]: "
 body:
   - type: markdown
-    value: "Test"
+    attributes: 
+      value: "Test"
   - type: checkboxes
     id: urgency
     attributes:
