@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: customer-reported
+    id: quarter
     attributes:
       label: When did you find this bug?
       options:
