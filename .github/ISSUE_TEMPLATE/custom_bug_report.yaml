@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Bug]: "
 body:
   - type: markdown
-    value: "![image](https://user-images.githubusercontent.com/63423081/172671654-cb514b95-a86b-45dc-a91c-19c1d50081d2.png)"
+    value: "Test"
   - type: checkboxes
     id: urgency
     attributes:
