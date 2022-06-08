@@ -4,8 +4,8 @@ title: "[Bug]: "
 body:
   - type: markdown
   - attributes: 
-    value: |
-      ![image](https://user-images.githubusercontent.com/63423081/172671654-cb514b95-a86b-45dc-a91c-19c1d50081d2.png)
+      value: |
+        ![image](https://user-images.githubusercontent.com/63423081/172671654-cb514b95-a86b-45dc-a91c-19c1d50081d2.png)
   - type: checkboxes
     id: urgency
     attributes:
