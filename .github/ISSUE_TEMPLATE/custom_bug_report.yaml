@@ -8,8 +8,8 @@ body:
     attributes:
       label: Did a customer report this?
       options:
-        - Yes
-        - No
+        - label: Yes
+        - label: No
     validations:
       required: true
   - type: checkboxes
@@ -17,10 +17,10 @@ body:
     attributes:
       label: Where was this found?
       options:
-        - Develop
-        - Nightly
-        - Staging
-        - Production
+        - label: Develop
+        - label: Nightly
+        - label: Staging
+        - label: Production
     validations:
       required: true
   - type: checkboxes
@@ -28,10 +28,10 @@ body:
     attributes:
       label: When did you find this bug?
       options:
-        - Q1
-        - Q2
-        - Q3
-        - Q4
+        - label: Q1
+        - label: Q2
+        - label: Q3
+        - label: Q4
     validations:
       required: true
   - type: textarea
