@@ -8,8 +8,8 @@ body:
     attributes:
       label: Did a customer report this?
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
   - type: checkboxes
