@@ -38,21 +38,29 @@ body:
     id: reproduce
     attributes:
       label: Steps to Reproduce
-      description: Provide us with the steps to reproduce the behaviour. Screenshots and/or video help!
-      placeholder: "1. Go to ... \n2. Click on... \n3. Scroll down to... \n4. See error"
+      description: "Provide us with the steps to reproduce the behaviour. Screenshots and/or video help!"
+      placeholder: | 
+        1. Go to ... 
+        2. Click on... 
+        3. Scroll down to...
+        4. See error
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: "Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks."
       render: shell
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected Behavior
-      description: Provide describe the expected behaviour.
-      placeholder: "1. Go to ... \n2. Click on... \n3. Scroll down to... \n4. No error"
+      description: "Provide describe the expected behaviour."
+      placeholder: |
+        1. Go to ... 
+        2. Click on... 
+        3. Scroll down to... 
+        4. No error
     validations:
       required: true
